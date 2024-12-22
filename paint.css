@@ -1,0 +1,31 @@
+body {
+    font-size: 22px;
+    background-color: #333;
+    color: whitesmoke;
+    font-family:Georgia, 'Courier New', Courier, monospace;
+}
+
+a {
+    color: whitesmoke;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover, a:focus {
+    color: hsl(189, 44%, 49%);
+}
+
+a:active {
+    color: red;
+}
+
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul {
+    list-style-type: square;
+}

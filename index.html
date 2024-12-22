@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Dominic Campbell-Moss">
+        <meta name="description" content="This page will display my basic HTML and CSS skills in building a static page.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Product Page</title>
+        <link rel="icon" href="product.png" type="image/x-icon">
+       <link rel="stylesheet" href="paint.css">
+    </head>
+    <body>
+        <header>
+            <h1>Mr. Gadget X300</h1>
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#product">Product Information</a>
+                    </li>
+                    <li>
+                        <a href="#feature">Features</a>
+                    </li>
+                    <li>
+                        <a href="#review">Customer Reviews</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <hr>
+
+        <main>
+            <section id="product">
+                <h2>Features</h2>
+                <p>Our all-in-one gadet for your automobile convenience needs! Hands-free, robust, and easy-to-setup!</p>
+                <figure>
+                    <img src="carmount.jpeg" alt="Futuristic car mount" height="235" width="267" loading="lazy">
+                    <figcaption>Revolutionary <strong>NEW</strong> design!</figcaption>
+                </figure>
+                <p><strong>Price: $43.99</strong></p>
+            </section>
+
+            <section id="features">
+                <h3>Key Features</h3>
+                <ul>
+                    <li>Ultra-lightweight, compact design.</li>
+                    <li>Practical and can be mounted on your car's dashboard, windshield and air vents, making it possible for you to use it anywhere.</li>
+                    <li>Equipped with a suction cup and locking mechanism for secure installation.</li>
+                    <li>Holder is made of <strong>vacuum silicone rubber and thick panels to form a strong triangular structure.</strong></li>
+                    <li>Up to <strong>1-year warranty</strong> for replacement</li>
+                </ul>
+            </section>
+
+            <hr>
+
+            <section id="review">
+                <h2>What Do Our Customers Say?</h2>
+                <p> "The Mr. Gadget X300 is far better than average phone holders! I love how easy the suction cup latches onto my windshield! Worth every dollar!"</p>
+                <p>"This product breaks apart, but I got a free replacement with no hassle!"</p>
+                <p>"I hate this product, it's just like any other phone holder but priced lower. So I bought it, and I am saddened to admit it is <strong>THEE BST PRODUCT!</strong></p>
+            </section>
+
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <form action="https://httpbin.org/get" method="get">
+                    <fieldset>
+                        <legend>Personal Info</legend>
+                        <p>
+                            <label for="firstName">First Name:</label>
+                            <input type="text" name="first" id="firstName" placeholder="Jane" autocomplete="on" required autofocus>
+                        </p>
+                        <p>
+                            <label for="lastName">Last Name:</label>
+                            <input type="text" name="first" id="lastName" placeholder="Doe" autocomplete="on" required>
+                        </p>
+                        <p>
+                            <label for="password">Password:</label>
+                            <input type="password" name="password" id="password" placeholder="Your secret" required>
+                        </p>
+                        <p>
+                            <label for="phone">Phone:</label>
+                            <input type="tel" name="phone" id="phone" placeholder="555-555-5555" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                        </p>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>Send me A Note</legend>
+                        <label for="message">Your Message</label>
+                        <br>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="TYpe your message here"></textarea>
+                    </fieldset>
+                    <br>
+                    <button type="submit">Submit</button>
+                    <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+                    <button type="reset">Reset</button>
+                </form>
+            </section>
+
+            <footer>
+                <p>&copy; 2024 Mr. Gadet X300</p>
+                <p>
+                    Contact Us: randomsupport@supportemail.com
+                </p>
+            </footer>
+        </main>
+    </body>
+</html>
