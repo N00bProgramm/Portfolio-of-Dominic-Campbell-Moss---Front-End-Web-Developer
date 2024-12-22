@@ -1,0 +1,31 @@
+body {
+    font-size: 22px;
+    background: rgb(10, 10, 10);
+    color: rgb(238, 238, 243);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    color: whitesmoke;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover, a:focus {
+    color: hsl(189, 44%, 49%);
+}
+
+a:active {
+    color: red;
+}
+
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul {
+    list-style-type: square;
+}
